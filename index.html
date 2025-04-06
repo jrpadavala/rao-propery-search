@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rao Property Search</title>
+</head>
+<body>
+    <header>
+        <h1>Rao Property Search</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Properties</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="search-section">
+            <h2>Find Your Dream Property</h2>
+            <form id="search-form">
+                <div class="form-group">
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" placeholder="City, State or Zip">
+                </div>
+                
+                <div class="form-group">
+                    <label for="property-type">Property Type:</label>
+                    <select id="property-type">
+                        <option value="">All Types</option>
+                        <option value="house">House</option>
+                        <option value="apartment">Apartment</option>
+                        <option value="condo">Condo</option>
+                        <option value="townhome">Townhome</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="price-range">Price Range:</label>
+                    <select id="price-range">
+                        <option value="">Any Price</option>
+                        <option value="100000-300000">$100,000 - $300,000</option>
+                        <option value="300001-500000">$300,001 - $500,000</option>
+                        <option value="500001-1000000">$500,001 - $1,000,000</option>
+                        <option value="1000001">$1,000,001+</option>
+                    </select>
+                </div>
+                
+                <button type="submit">Search Properties</button>
+            </form>
+        </section>
+        
+        <section class="featured-properties">
+            <h2>Featured Properties</h2>
+            <div class="property-list">
+                <div class="property-card">
+                    <h3>Luxury Villa</h3>
+                    <p>Spacious 4 bed, 3 bath in prime location</p>
+                    <p class="price">$450,000</p>
+                </div>
+                
+                <div class="property-card">
+                    <h3>Downtown Apartment</h3>
+                    <p>Modern 2 bed apartment with cityscape views</p>
+                    <p class="price">$325,000</p>
+                </div>
+                
+                <div class="property-card">
+                    <h3>Suburban Home</h3>
+                    <p>Family-friendly 3 bed, 2 bath with large yard</p>
+                    <p class="price">$275,000</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Rao Property Search. All rights reserved.</p>
+    </footer>
+</body>
+</html>
